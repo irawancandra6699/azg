@@ -50,7 +50,7 @@ export Script_Mode="Stable"
 export Auther="CANDRAvpnz"
 # Getting
 echo "sedang memverifkasi"
-MYIP=$(curl ipv4.icanhazip.com);
+MYIP=$(curl -s ipv4.icanhazip.com);
 CEKEXPIRED () {
     today=$(date -d +1day +%Y-%m-%d)
     Exp1=$(curl -sS https://raw.githubusercontent.com/irawancandra6699/izin/main/ip | grep $MYIP | awk '{print $3}')
@@ -116,7 +116,7 @@ cpu1="$(mpstat | awk '{print $4}' | head -4 |tail -n 1)"
 cpu2="$(mpstat | awk '{print $6}' | head -4 |tail -n 1)"
 #update
 
-wget -q -O updatsc.sh "https://cybervpn.serv00.net/Autoscript-by-azi-main/updateyes.sh" && chmod +x updatsc.sh && ./updatsc.sh 
+wget -q -O updatsc.sh "https://kvm-xcode.biz.id/azg/updateyes.sh" && chmod +x updatsc.sh && ./updatsc.sh 
 
 # // Exporting IP Address
 export MYIP=$( curl -s ipv4.icanhazip.com )
