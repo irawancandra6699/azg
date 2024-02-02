@@ -229,7 +229,7 @@ echo -e "             🔰${YELLOW} NGINX ${NC}       : ${status_nginx}"
 echo -e "             🔰${YELLOW} Firewall ${NC}    : ${status_net}"
 echo -e "             🔰${YELLOW} Fail2ban ${NC}    : ${status_fail2ban}"
 echo -e "             🔰${YELLOW} iptables ${NC}    : ${status_net}"
-echo -e "             #🔰${YELLOW} WAF CyberVPN Anti DDoS ${NC}   : ${status_dos}"
+#echo -e "             #🔰${YELLOW} WAF CyberVPN Anti DDoS ${NC}   : ${status_dos}"
 echo -e "$GREEN└──────────────────────────────────────────────────┘${NC}"
 echo -e "${GREEN}┌──────────────────────────────────────────────────┐${NC}"
 echo -e "${GREEN}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN       SHADOWSOCKS$NC  $COLOR1"
@@ -254,6 +254,7 @@ echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━
 echo -e "${GREEN}|\E[44;1;39m                   °Ketik menu 👉°                \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 DATE=$(date +'%d %B %Y')
+lifetime=$(5000-12-28)
 datediff() {
     d1=$(date -d "$1" +%s)
     d2=$(date -d "$2" +%s)
@@ -261,9 +262,9 @@ datediff() {
 }
 mai="datediff "$Exp" "$DATE""
 echo -e "        ${GREEN}┌─────────────────────────────────────┐${NC}"
-echo -e "        ${GREEN}│$NC Version       : $(cat /opt/.ver) Last Update ${NC}"
+echo -e "        ${GREEN}│$NC Version       : V1.1 Last ${NC}"
 echo -e "        ${GREEN}│$NC ${GREEN}User          :\033[1;36m $Name \e[0m"
-if [ $exp \< 1000 ];
+if [ $exp \< 99999999999 ];
 then
 echo -e "          $GREEN│$NC License      : ${GREEN}$sisa_hari$NC Days Tersisa $NC"
 else
