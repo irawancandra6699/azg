@@ -265,7 +265,7 @@ echo -e "        ${GREEN}│$NC Version       : V1.1 Last ${NC}"
 echo -e "        ${GREEN}│$NC User          :\033[1;36m $Name \e[0m"
 if [ $exp \< 99999999999 ];
 then
-echo -e "         $GREEN│$NC License      : ${GREEN}$Exp$NC"
+echo -e "        $GREEN│$NC License      : ${GREEN}$Exp$NC"
 else
     datediff "$Exp" "$DATE"
 fi;
