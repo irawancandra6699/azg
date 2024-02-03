@@ -203,7 +203,7 @@ bot
 clear
 
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "${GREEN}|\E[44;1;39m        🔰SCRIPT PREMIUM🔰BY KINGSTORE🔰       \E[0m|"
+echo -e "${GREEN}|\E[44;1;39m        🔰SCRIPT PREMIUM🔰 🔰KINGSTORE🔰       \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "🔰 Server Uptime       = $( uptime -p  | cut -d " " -f 2-10000 ) "
  
@@ -232,8 +232,8 @@ echo -e "             🔰${YELLOW} iptables ${NC}    : ${status_net}"
 #echo -e "             #🔰${YELLOW} WAF CyberVPN Anti DDoS ${NC}   : ${status_dos}"
 echo -e "$GREEN└──────────────────────────────────────────────────┘${NC}"
 echo -e "${GREEN}┌──────────────────────────────────────────────────┐${NC}"
-echo -e "${GREEN}│  \033[0m ${BOLD}${YELLOW}🔰SSH     🔰VMESS       🔰VLESS      🔰TROJAN       🔰SHADOWSOCKS$NC  $COLOR1"
-echo -e "${GREEN}│   \033[0m ${Blue} $ssh1        $vma           $vla          $tra               $ssa   $NC"
+echo -e "${GREEN}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN       SHADOWSOCKS$NC  $COLOR1"
+echo -e "${GREEN}│  \033[0m ${Blue} $ssh1        $vma           $vla          $tra               $ssa   $NC"
 #echo -e "${GREEN}└──────────────────────────────────────────────────┘${NC}"
 #echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 #echo -e "\E[39;1;92m                ⇱ MENU SERVICE ⇲                \E[0m"
