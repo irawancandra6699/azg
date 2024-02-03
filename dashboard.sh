@@ -251,7 +251,7 @@ echo -e "${GREEN}│  \033[0m ${Blue} $ssh1        $vma           $vla          
 
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 
-echo -e "${GREEN}|\E[44;1;39m                   🔰KETIK MENU 👉🔰                \E[0m|"
+echo -e "${GREEN}|\E[44;1;39m                   🔰KETIK MENU 👉                \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
