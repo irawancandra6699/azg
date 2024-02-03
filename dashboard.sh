@@ -203,7 +203,7 @@ bot
 clear
 
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "${GREEN}| \E[44;1;39m         °SCRIPT PREMIUM BY CyberVPN°        \E[0m|"
+echo -e "${GREEN}| \E[44;1;39m         °SCRIPT PREMIUM BY KINGSTORE        \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "□ Server Uptime       = $( uptime -p  | cut -d " " -f 2-10000 ) "
  
@@ -234,24 +234,24 @@ echo -e "$GREEN└────────────────────�
 echo -e "${GREEN}┌──────────────────────────────────────────────────┐${NC}"
 echo -e "${GREEN}│  \033[0m ${BOLD}${YELLOW}SSH     VMESS       VLESS      TROJAN       SHADOWSOCKS$NC  $COLOR1"
 echo -e "${GREEN}│  \033[0m ${Blue} $ssh1        $vma           $vla          $tra               $ssa   $NC"
-echo -e "${GREEN}└──────────────────────────────────────────────────┘${NC}"
+#echo -e "${GREEN}└──────────────────────────────────────────────────┘${NC}"
+#echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+#echo -e "\E[39;1;92m                ⇱ MENU SERVICE ⇲                \E[0m"
+#echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
+
+#echo -e "${GREEN}┌──────────────────────────────────────────────────┐${NC}"
+
+#echo -e " ${CYAN}[${BIWhite}01${BICyan}]${RED} •${NC} ${CYAN}SSH/CLOUDFRONT  $NC  ${CYAN}[${BIWhite}06${BICyan}]${RED} • ${NC}${CYAN}TROJAN MENU$NC"
+#echo -e " ${CYAN}[${BIWhite}02${BICyan}]${RED} •${NC} ${CYAN}SSH UDP MENU    $NC  ${CYAN}[${BIWhite}07${BICyan}]${RED} • ${NC}${CYAN}IP SEC [ L2TP & PPTP ] $NC"
+#echo -e " ${CYAN}[${BIWhite}03${BICyan}]${RED} •${NC} ${CYAN}VMESS MENU      $NC  ${CYAN}[${BIWhite}08${BICyan}]${RED} • ${NC}${CYAN}INFO RUNNING $NC"
+#echo -e " ${CYAN}[${BIWhite}04${BICyan}]${RED} •${NC} ${CYAN}VLESS MENU      $NC  ${CYAN}[${BIWhite}09${BICyan}]${RED} • ${NC}${CYAN}TRIAL GENERATOR $NC"
+#echo -e " ${CYAN}[${BIWhite}05${BICyan}]${RED} •${NC} ${CYAN}S-SOCK MENU     $NC  ${CYAN}[${BIWhite}10${BICyan}]${RED} • ${NC}${CYAN}DDOS PROTECTION V.12 $NC" 
+
+#echo -e "${GREEN}└──────────────────────────────────────────────────┘${NC}"
+
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-echo -e "\E[39;1;92m                ⇱ MENU SERVICE ⇲                \E[0m"
-echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 
-echo -e "${GREEN}┌──────────────────────────────────────────────────┐${NC}"
-
-echo -e " ${CYAN}[${BIWhite}01${BICyan}]${RED} •${NC} ${CYAN}SSH/CLOUDFRONT  $NC  ${CYAN}[${BIWhite}06${BICyan}]${RED} • ${NC}${CYAN}TROJAN MENU$NC"
-echo -e " ${CYAN}[${BIWhite}02${BICyan}]${RED} •${NC} ${CYAN}SSH UDP MENU    $NC  ${CYAN}[${BIWhite}07${BICyan}]${RED} • ${NC}${CYAN}IP SEC [ L2TP & PPTP ] $NC"
-echo -e " ${CYAN}[${BIWhite}03${BICyan}]${RED} •${NC} ${CYAN}VMESS MENU      $NC  ${CYAN}[${BIWhite}08${BICyan}]${RED} • ${NC}${CYAN}INFO RUNNING $NC"
-echo -e " ${CYAN}[${BIWhite}04${BICyan}]${RED} •${NC} ${CYAN}VLESS MENU      $NC  ${CYAN}[${BIWhite}09${BICyan}]${RED} • ${NC}${CYAN}TRIAL GENERATOR $NC"
-echo -e " ${CYAN}[${BIWhite}05${BICyan}]${RED} •${NC} ${CYAN}S-SOCK MENU     $NC  ${CYAN}[${BIWhite}10${BICyan}]${RED} • ${NC}${CYAN}DDOS PROTECTION V.12 $NC" 
-
-echo -e "${GREEN}└──────────────────────────────────────────────────┘${NC}"
-
-echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
-
-echo -e "${GREEN}|\E[44;1;39m                   °Ketik menu 👉°                \E[0m|"
+echo -e "${GREEN}|\E[44;1;39m                   °KETIK MENU 👉°                \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━${NC}"
 DATE=$(date +'%d %B %Y')
 datediff() {
