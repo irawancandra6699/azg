@@ -203,15 +203,15 @@ bot
 clear
 
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "${GREEN}| \E[44;1;39m        🔰SCRIPT PREMIUM🔰BY KINGSTORE🔰        \E[0m|"
+echo -e "${GREEN}|\E[44;1;39m        🔰SCRIPT PREMIUM🔰BY KINGSTORE🔰       \E[0m|"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
-echo -e "□ Server Uptime       = $( uptime -p  | cut -d " " -f 2-10000 ) "
+echo -e "🔰 Server Uptime       = $( uptime -p  | cut -d " " -f 2-10000 ) "
  
-echo -e "• Current Time        = $( date -d "0 days" +"%d-%m-%Y | %X" )"
-echo -e "• Current Domain      = $( cat /etc/xray/domain )"
-echo -e "• Server IP           = $MYIP"
-echo -e "• ISP                 = $(curl -s ipinfo.io/org | cut -d " " -f 2-10 )${NC}"
-echo -e "• Status Hari ini     = $(cat /root/status)${NC}"
+echo -e "🔰 Current Time        = $( date -d "0 days" +"%d-%m-%Y | %X" )"
+echo -e "🔰 Current Domain      = $( cat /etc/xray/domain )"
+echo -e "🔰 Server IP           = $MYIP"
+echo -e "🔰 ISP                 = $(curl -s ipinfo.io/org | cut -d " " -f 2-10 )${NC}"
+echo -e "🔰 Status Hari ini     = $(cat /root/status)${NC}"
 echo -e "${GREEN}━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━\033[0m${NC}"
 echo -e "$GREEN┌──────────────────────────────────────────────────┐${NC}"
 
